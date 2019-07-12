@@ -1,0 +1,131 @@
+# depslib dependency file v1.0
+1562793347 source:e:\programowanie\c++\neverengine 1.1 alpha\neverengine\main.cpp
+	"data/never_engine_library/modules/game/run.hpp"
+
+1562791116 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\config\config.hpp
+	"config_allegro.hpp"
+	<vector>
+	<ctime>
+	<cmath>
+	<iostream>
+
+1562016035 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\config\config_allegro.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+
+1562016043 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\keyboard\keyboard.hpp
+	"../../config/config.hpp"
+	"stdlib.h"
+	"cstdio"
+
+1562779179 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\image\image.hpp
+	"../../config/config.hpp"
+	"image_metadata.hpp"
+	"../../utils/screen_scaler.hpp"
+
+1562779501 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\image\image_metadata.hpp
+
+1562778161 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\never_engine.hpp
+	"ne_structures.hpp"
+	"modules/sprite/sprite.hpp"
+	"modules/keyboard/keyboard.hpp"
+	"modules/resolution/resolution.hpp"
+	"modules/time/time.hpp"
+	"modules/keyboard/keycodes.hpp"
+	"modules/mouse/mouse.h"
+	"modules/button/button.hpp"
+	"modules/keyboard/input_buffer.hpp"
+	"modules/textinput/textinput.hpp"
+	"modules/font/font.hpp"
+	"modules/character_controller/character_controller.hpp"
+	"modules/character/character.hpp"
+	"utils/mouse_between_square.hpp"
+	"utils/char_decoder.hpp"
+	"utils/screen_scaler.hpp"
+
+1562793130 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\resolution\resolution_controller.hpp
+	"../../config/config.hpp"
+
+1561837799 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\resolution\resolution_scaler.hpp
+
+1561815249 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite.module.hpp
+
+1562506559 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\ne_init.hpp
+	"never_engine.hpp"
+
+1562793437 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\game\run.hpp
+	"../../ne_init.hpp"
+
+1562013291 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\resolution\resolution.hpp
+	"resolution_controller.hpp"
+
+1562507550 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\time\time.hpp
+
+1562506485 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\ne_structures.hpp
+	"config/config.hpp"
+
+1562362522 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\image\image_scaler.hpp
+
+1562506264 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\animation\animation.hpp
+	"../image/image.hpp"
+	"animation_metadata.hpp"
+
+1562347347 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\keyboard\keycodes.hpp
+
+1562698942 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite.hpp
+	"../animation/animation.hpp"
+	"sprite_metadata.hpp"
+
+1562792352 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\mouse\mouse.h
+	"../../utils/screen_scaler.hpp"
+
+1562362843 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\utils\mouse_between_square.hpp
+	"../config/config.hpp"
+
+1562779466 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\button\button.hpp
+	"../../utils/mouse_between_square.hpp"
+	"../mouse/mouse.h"
+	"../image/image.hpp"
+
+1562400556 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\app\custom_button.hpp
+	"../data/never_engine_library/never_engine.hpp"
+
+1562507325 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\utils\char_decoder.hpp
+	"../modules/keyboard/keycodes.hpp"
+	"../modules/keyboard/keyboard.hpp"
+
+1562507467 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\keyboard\input_buffer.hpp
+	"keyboard.hpp"
+	"keycodes.hpp"
+	"../../utils/char_decoder.hpp"
+	"../../config/config.hpp"
+	<cstring>
+
+1562507505 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\textinput\textinput.hpp
+	"../keyboard/input_buffer.hpp"
+	"../../utils/text.hpp"
+	"../font/font.hpp"
+
+1562507330 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\utils\text.hpp
+	"screen_scaler.hpp"
+	"../modules/font/font.hpp"
+
+1562505237 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\font\font.hpp
+	"../../config/config.hpp"
+	"../../utils/screen_scaler.hpp"
+
+1562507149 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\animation\animation_metadata.hpp
+
+1562500892 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite_metadata.hpp
+
+1562505039 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\utils\screen_scaler.hpp
+
+1562792490 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character_controller\character_controller.hpp
+	"../keyboard/keycodes.hpp"
+	"../keyboard/keyboard.hpp"
+
+1562790882 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character.hpp
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NeverEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NeverEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="allegro-5.0.10-monolith-mt-debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NeverEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="data/never_engine_library/config/config.hpp" />
+		<Unit filename="data/never_engine_library/config/config_allegro.hpp" />
+		<Unit filename="data/never_engine_library/modules/animation/animation.hpp" />
+		<Unit filename="data/never_engine_library/modules/animation/animation_metadata.hpp" />
+		<Unit filename="data/never_engine_library/modules/button/button.hpp" />
+		<Unit filename="data/never_engine_library/modules/character/character.hpp" />
+		<Unit filename="data/never_engine_library/modules/character_controller/character_controller.hpp" />
+		<Unit filename="data/never_engine_library/modules/font/font.hpp" />
+		<Unit filename="data/never_engine_library/modules/game/run.hpp" />
+		<Unit filename="data/never_engine_library/modules/image/image.hpp" />
+		<Unit filename="data/never_engine_library/modules/image/image_metadata.hpp" />
+		<Unit filename="data/never_engine_library/modules/keyboard/input_buffer.hpp" />
+		<Unit filename="data/never_engine_library/modules/keyboard/keyboard.hpp" />
+		<Unit filename="data/never_engine_library/modules/keyboard/keycodes.hpp" />
+		<Unit filename="data/never_engine_library/modules/mouse/mouse.h" />
+		<Unit filename="data/never_engine_library/modules/resolution/resolution.hpp" />
+		<Unit filename="data/never_engine_library/modules/resolution/resolution_controller.hpp" />
+		<Unit filename="data/never_engine_library/modules/sprite/sprite.hpp" />
+		<Unit filename="data/never_engine_library/modules/sprite/sprite_metadata.hpp" />
+		<Unit filename="data/never_engine_library/modules/textinput/textinput.hpp" />
+		<Unit filename="data/never_engine_library/modules/time/time.hpp" />
+		<Unit filename="data/never_engine_library/ne_init.hpp" />
+		<Unit filename="data/never_engine_library/ne_structures.hpp" />
+		<Unit filename="data/never_engine_library/never_engine.hpp" />
+		<Unit filename="data/never_engine_library/utils/char_decoder.hpp" />
+		<Unit filename="data/never_engine_library/utils/mouse_between_square.hpp" />
+		<Unit filename="data/never_engine_library/utils/screen_scaler.hpp" />
+		<Unit filename="data/never_engine_library/utils/text.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
