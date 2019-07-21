@@ -2,94 +2,24 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="data\never_engine_library\ne_init.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+	<File name="data\never_engine_library\ne_init.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="548" topLine="0" />
+			<Cursor1 position="1343" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\time\time.hpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\character_controller\character_controller.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="325" topLine="0" />
+			<Cursor1 position="5642" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\keyboard\keycodes.hpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1945" topLine="88" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\image\image.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4344" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\keyboard\keyboard.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="583" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\sprite\sprite.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2028" topLine="42" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\sprite\sprite_metadata.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="322" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\ne_structures.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="568" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\utils\char_decoder.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="270" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\never_engine.hpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1081" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\config\config.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="187" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\resolution\resolution.hpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\resolution\resolution.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="608" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\animation\animation_metadata.hpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="327" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\keyboard\input_buffer.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="308" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\character\character.hpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="705" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\resolution\resolution_controller.hpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="917" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\utils\screen_scaler.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="531" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="data\never_engine_library\modules\character_controller\character_controller.hpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5265" topLine="155" />
+			<Cursor1 position="402" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="data\never_engine_library\modules\font\font.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -97,24 +27,54 @@
 			<Cursor1 position="460" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\utils\text.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="data\never_engine_library\modules\keyboard\keycodes.hpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="398" topLine="0" />
+			<Cursor1 position="1945" topLine="88" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\config\config_allegro.hpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\sprite\sprite_metadata.hpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="275" topLine="0" />
+			<Cursor1 position="378" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+	<File name="data\never_engine_library\modules\game\run.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="738" topLine="0" />
+			<Cursor1 position="84" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\mouse\mouse.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\resolution\resolution_controller.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="532" topLine="0" />
+			<Cursor1 position="917" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\map\map.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1254" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\ne_structures.hpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="677" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\map\map_controller.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="257" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\animation\animation.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3378" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\time\time.hpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="325" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\animation\animation_metadata.hpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="832" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="data\never_engine_library\utils\mouse_between_square.hpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -122,19 +82,29 @@
 			<Cursor1 position="192" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\animation\animation.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_extends\ne_extends.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2026" topLine="41" />
+			<Cursor1 position="64" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\textinput\textinput.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\image\image.hpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="303" topLine="0" />
+			<Cursor1 position="3635" topLine="128" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\game\run.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\keyboard\keyboard.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1058" topLine="0" />
+			<Cursor1 position="583" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\utils\char_decoder.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="270" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\utils\text.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="398" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="data\never_engine_library\modules\image\image_metadata.hpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -142,9 +112,75 @@
 			<Cursor1 position="721" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="data\never_engine_library\modules\button\button.hpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="data\never_engine_library\modules\button\button.hpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1362" topLine="0" />
+			<Cursor1 position="188" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\sprite\sprite.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3231" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\character\character.hpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1734" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\utils\screen_scaler.hpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="531" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\config\config_allegro.hpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="277" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\keyboard\input_buffer.hpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="308" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\character\character_controller.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1978" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="22" />
+			<Collapse line="31" />
+			<Collapse line="40" />
+			<Collapse line="50" />
+			<Collapse line="56" />
+			<Collapse line="59" />
+			<Collapse line="62" />
+			<Collapse line="65" />
+			<Collapse line="68" />
+			<Collapse line="72" />
+			<Collapse line="108" />
+			<Collapse line="144" />
+			<Collapse line="188" />
+			<Collapse line="211" />
+		</Folding>
+	</File>
+	<File name="data\never_engine_library\modules\mouse\mouse.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="532" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\modules\textinput\textinput.hpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="303" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\config\config.hpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="8" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1058" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="data\never_engine_library\never_engine.hpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1072" topLine="13" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -11,6 +11,8 @@ public:
     int current_direction;
     int position_x;
     int position_y;
+    bool finished_animation;
+    bool loop_aniamtion;
 
     Ne_sprite_metadata() {
         sprite_x = 1;

@@ -40,8 +40,11 @@
 
 #include "modules/font/font.hpp"
 
-#include "modules/character_controller/character_controller.hpp"
+#include "modules/character/character_controller.hpp"
 #include "modules/character/character.hpp"
+
+#include "modules/map/map.hpp"
+#include "modules/map/map_controller.hpp"
 
 // Utils
 

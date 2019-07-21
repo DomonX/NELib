@@ -17,12 +17,13 @@ public:
       double seconds_per_frame
       ){
         metadata = new Ne_sprite_metadata();
-
         metadata->sprite_x = sprite_x;
         metadata->sprite_y = sprite_y;
         metadata->position_x = position_x;
         metadata->position_y = position_y;
         metadata->seconds_per_frame = seconds_per_frame;
+        metadata->finished_animation = false;
+        metadata->loop_aniamtion = false;
 
         ALLEGRO_BITMAP * temp = al_load_bitmap(bitmap_path);
         int part_width = al_get_bitmap_width(temp);
@@ -49,10 +50,18 @@ public:
         metadata->current_animation_counter++;
         int ticks_for_frame = ne_config->frames_per_second * metadata->seconds_per_frame;
         if(metadata->current_animation_counter >= ticks_for_frame) {
-            metadata->current_animation_counter = 0;
-            metadata->current_animation_frame++;
+            if(metadata->loop_aniamtion){
+                metadata->current_animation_counter = 0;
+                metadata->current_animation_frame++;
+                metadata->finished_animation = false;
+            }else if(!metadata->finished_animation){
+                metadata->current_animation_counter = 0;
+                metadata->current_animation_frame++;
+            }
+
         }
         if(metadata->current_animation_frame >= metadata->sprite_x) {
+            metadata->finished_animation = true;
             metadata->current_animation_frame = 0;
         }
     }
@@ -63,10 +72,10 @@ public:
             return;
         }
         bitmaps.at(metadata->current_direction)->run(
-                                                     metadata->position_x,
-                                                     metadata->position_y,
-                                                     metadata->current_animation_frame
-                                                     );
+         metadata->position_x,
+         metadata->position_y,
+         metadata->current_animation_frame
+        );
     }
 
     void rest() {

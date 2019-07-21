@@ -1,6 +1,5 @@
-
-
 #include "data/never_engine_library/modules/game/run.hpp"
+#include "data/never_engine_extends/ne_extends.hpp"
 
 using namespace std;
 
@@ -8,21 +7,19 @@ int main() {
 
     ne_init();
 
-    Ne_image * img = new Ne_image("backtest.png");
-    Ne_animation * anim = new Ne_animation("animation.png",50,50,4,0.1);
-    Ne_sprite * spr = new Ne_sprite("char.png",4,4,0,0,0.1);
-    Ne_button * btn = new Ne_button(50,50,"button.png",true);
-    Ne_font * font = new Ne_font("font1.ttf");
-    Ne_text_input * in = new Ne_text_input(200,200,"text.png",font,30,al_map_rgb(255,255,255));
-
-    Ne_character_controller * chara = new Ne_character_controller(7);
-    chara->set_diagonally(true);
-    Ne_character * my_char = new Ne_character(chara,spr);
-
-    ne_resolutions->add_resolution(1000,500);
+    ne_resolutions->add_resolution(1600,900);
     ne_resolutions->apply_resolution(0,window);
-    ne_start_timer();
 
+    //Ne_map<Ne_image*> * mainMap = new Ne_map<Ne_image*>();
+    Ne_sprite * characterSprite = new Ne_sprite("char.png",4,4,0,0,0.1);
+    Ne_character_controller * characterController = new Ne_character_controller(10);
+    characterController->set_diagonally(false);
+    characterController->set_movement_mode(true);
+    Ne_character * character = new Ne_character(characterController,characterSprite);
+    character->set_animation_mode(true);
+    //Ne_map_controller<Ne_image*> * mainMap = new Ne_map_controller<Ne_image*>();
+
+    ne_start_timer();
     while(!ne_keyboard.key_down(NE_KEY_ESCAPE)){
         ne_run();
 
@@ -39,15 +36,9 @@ int main() {
         }
 
         if(ne_frame_tick) {
-            cout << ne_mouse->get_mouse_x() << endl;
-            bool moved = false;
-            if(btn->is_clicked()) {
-                Ne_resolution_controller::toogle_windowed(window);
-            }
             ne_in_game_time->fly_time();
-            img->run();
-            my_char->run();
-            btn->run();
+            character->run();
+            //characterSprite->run();
         }
 
     }
