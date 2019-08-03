@@ -23,7 +23,7 @@ public:
         metadata->position_y = position_y;
         metadata->seconds_per_frame = seconds_per_frame;
         metadata->finished_animation = false;
-        metadata->loop_aniamtion = false;
+        metadata->loop_aniamtion = true;
 
         ALLEGRO_BITMAP * temp = al_load_bitmap(bitmap_path);
         int part_width = al_get_bitmap_width(temp);
@@ -50,24 +50,25 @@ public:
         metadata->current_animation_counter++;
         int ticks_for_frame = ne_config->frames_per_second * metadata->seconds_per_frame;
         if(metadata->current_animation_counter >= ticks_for_frame) {
-            if(metadata->loop_aniamtion){
-                metadata->current_animation_counter = 0;
-                metadata->current_animation_frame++;
-                metadata->finished_animation = false;
-            }else if(!metadata->finished_animation){
-                metadata->current_animation_counter = 0;
-                metadata->current_animation_frame++;
-            }
-
+            metadata->current_animation_counter = 0;
+            metadata->current_animation_frame++;
+            metadata->finished_animation = false;
         }
         if(metadata->current_animation_frame >= metadata->sprite_x) {
             metadata->finished_animation = true;
             metadata->current_animation_frame = 0;
+            metadata->current_animation_counter = 0;
         }
     }
 
     void animate() {
+        if(metadata->finished_animation && !metadata->loop_aniamtion) {
+            return;
+        }
         tick_animation();
+    }
+
+    void draw() {
         if(metadata->sprite_x <= metadata->current_animation_frame) {
             return;
         }
@@ -79,9 +80,6 @@ public:
     }
 
     void rest() {
-        if(metadata->sprite_x <= metadata->current_animation_frame) {
-            return;
-        }
         metadata->current_animation_frame = 0;
         metadata->current_animation_counter = 0;
     }
@@ -95,12 +93,13 @@ public:
 
     void run() {
         animate();
+        draw();
     }
 
     void run(int x, int y) {
         metadata->position_x = x;
         metadata->position_y = y;
-        animate();
+        run();
     }
 
 };

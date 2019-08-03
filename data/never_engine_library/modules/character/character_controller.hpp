@@ -8,8 +8,6 @@
 class Ne_character_controller {
 
 private:
-    double position_x;
-    double position_y;
     bool allow_diagonally;
     bool single_click;
     int key_down;
@@ -19,6 +17,8 @@ private:
     double speed;
 public:
     int facing;
+    double position_x;
+    double position_y;
     // Constructors
     Ne_character_controller() {
         apply_settings(NE_KEY_UP,NE_KEY_DOWN,NE_KEY_LEFT,NE_KEY_RIGHT);
@@ -192,22 +192,27 @@ public:
             facing = 3;
             info->moved_left = speed;
             position_x -= speed;
+            return info;
         }
         if(right) {
             facing = 1;
             info->moved_right = speed;
             position_x += speed;
+            return info;
         }
         if(up) {
             facing = 0;
             info->moved_up = speed;
             position_y -= speed;
+            return info;
         }
         if(down) {
             facing = 2;
             info->moved_down = speed;
             position_y += speed;
+            return info;
         }
+        return info;
     }
     Ne_character_controller_info * run() {
         if(single_click) {

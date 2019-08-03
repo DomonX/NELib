@@ -45,9 +45,6 @@
 		<Unit filename="data/never_engine_library/modules/character/character.hpp" />
 		<Unit filename="data/never_engine_library/modules/character/character_controller.hpp" />
 		<Unit filename="data/never_engine_library/modules/character/character_controller_info.hpp" />
-		<Unit filename="data/never_engine_library/modules/character_controller/character_controller.hpp">
-			<Option virtualFolder="data/never_engine_library/modules/character/" />
-		</Unit>
 		<Unit filename="data/never_engine_library/modules/font/font.hpp" />
 		<Unit filename="data/never_engine_library/modules/game/run.hpp" />
 		<Unit filename="data/never_engine_library/modules/image/image.hpp" />

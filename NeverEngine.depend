@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1563638824 source:e:\programowanie\c++\neverengine 1.1 alpha\neverengine\main.cpp
+1564084338 source:e:\programowanie\c++\neverengine 1.1 alpha\neverengine\main.cpp
 	"data/never_engine_library/modules/game/run.hpp"
 	"data/never_engine_extends/ne_extends.hpp"
 
@@ -29,7 +29,7 @@
 
 1562779501 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\image\image_metadata.hpp
 
-1563634680 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\never_engine.hpp
+1563712470 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\never_engine.hpp
 	"ne_structures.hpp"
 	"modules/sprite/sprite.hpp"
 	"modules/keyboard/keyboard.hpp"
@@ -78,7 +78,7 @@
 
 1562347347 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\keyboard\keycodes.hpp
 
-1563639389 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite.hpp
+1563713553 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite.hpp
 	"../animation/animation.hpp"
 	"sprite_metadata.hpp"
 
@@ -122,7 +122,7 @@
 
 1562507149 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\animation\animation_metadata.hpp
 
-1563636946 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite_metadata.hpp
+1563713175 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\sprite\sprite_metadata.hpp
 
 1562505039 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\utils\screen_scaler.hpp
 
@@ -130,9 +130,9 @@
 	"../keyboard/keycodes.hpp"
 	"../keyboard/keyboard.hpp"
 
-1563712278 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character.hpp
+1564084323 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character.hpp
 
-1563633876 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_extends\ne_extends.hpp
+1563712470 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_extends\ne_extends.hpp
 
 1563393951 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_extends\modules\map\map.hpp
 	"../../../never_engine_library/never_engine.hpp"
@@ -140,15 +140,15 @@
 
 1563392899 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\matrix\matrix.hpp
 
-1563634301 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\map\map.hpp
+1563712470 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\map\map.hpp
 
-1563638460 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character_controller.hpp
+1564084288 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character_controller.hpp
 	"../keyboard/keycodes.hpp"
 	"../keyboard/keyboard.hpp"
 	"character_controller_info.hpp"
 
-1563635043 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character_controller_info.hpp
+1563712470 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\character\character_controller_info.hpp
 
-1563634401 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\map\map_controller.hpp
+1563712470 e:\programowanie\c++\neverengine 1.1 alpha\neverengine\data\never_engine_library\modules\map\map_controller.hpp
 	"map.hpp"
 
